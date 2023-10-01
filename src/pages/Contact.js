@@ -29,7 +29,7 @@ const Contact=()=>{
                             <FaEnvelopeOpen className="info__icon"/>
                             <div>
                                 <span className="info__title">Mail Me</span>
-                                <h4 className="info__desc">akashreddyakepati@gmail.com</h4>
+                                <h4 className="info__desc">Akepati.amitha@gmail.com</h4>
                             </div>
 
                         </div>
@@ -37,7 +37,7 @@ const Contact=()=>{
                             <FaPhoneSquareAlt className="info__icon"/>
                             <div>
                                 <span className="info__title">Call Me</span>
-                                <h4 className="info__desc">+919398000816</h4>
+                                <h4 className="info__desc">+14693188841</h4>
                             </div>
 
                         </div>

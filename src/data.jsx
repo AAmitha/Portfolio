@@ -12,14 +12,15 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 import {GrCertificate} from "react-icons/gr";
 
-import Work1 from './assets/project-1.png';
-import Work2 from './assets/project-2.png';
-import Work3 from './assets/project-3.png';
-import Work4 from './assets/project-4.png';
-import Work5 from './assets/project-5.png';
-import Work6 from './assets/project-6.jpg';
-import Work7 from './assets/project-7.jpg';
-import Work8 from './assets/project-8.png';
+import Work1 from './assets/work1.webp';
+import Work2 from './assets/work2.webp';
+import Work3 from './assets/work3.jpg';
+import Work4 from './assets/work4.png';
+import Work5 from './assets/work5.png';
+import Work6 from './assets/work6.jpg';
+import Work7 from './assets/work7.jpg';
+import Work8 from './assets/work8.png';
+import Work9 from './assets/work9.jpg';
 import cert1 from './assets/cert1.png';
 import cert2 from './assets/cert2.png';
 import cert3 from './assets/cert3.png';
@@ -107,7 +108,7 @@ export const personalInfo = [
   {
     id: 5,
     title: 'Address : ',
-    description: '4/219-L-1, Rajampet, AP',
+    description: '515 Northwest hwy ,apt 3707 Irving Texas 75039',
   },
 
   {
@@ -193,29 +194,7 @@ export const skills = [
 ];
 
 export const portfolio = [
-  {
-    id: 1,
-    img: Work8,
-    title: 'Ecommerce Website',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'website',
-      },
-      
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'MERN',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://ecommerce-dusky-xi.vercel.app/',
-      },
-    ],
-  },
+  
 
   {
     id: 1,
@@ -224,89 +203,77 @@ export const portfolio = [
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'website',
+        title: 'Hackathon : ',
+        desc: 'Smart Bridge in collaboration with IBM ',
       },
       
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'ReactJS',
+        desc: '',
       },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://imdb-clone-three-gamma.vercel.app/',
-      },
+      
     ],
   },
 
   {
     id: 2,
     img: Work2,
-    title: 'Expense Tracker',
+    title: 'Prediction of Heart Disease Using ML Algorithms with Relief Feature Technique',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'ML Model',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'MERN Stack',
+        desc: 'Python',
       },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://expense-tracker-frontend-mu.vercel.app/',
-      },
+      
     ],
   },
 
   {
     id: 3,
     img: Work3,
-    title: 'Business Website',
+    title: 'Infectious Disease Patient Count PRediction Using ML Algorithm',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'ML Model',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'HTML,CSS,JS',
+        desc: 'Python',
       },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://akashreddy2003.github.io/srisaiagencies/',
-      },
+      
     ],
   },
 
   {
     id: 4,
     img: Work4,
-    title: 'Website',
+    title: 'Go Fish Card Game',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Game',
       },
      
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'HTML,CSS,JS',
+        desc: 'Python',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://wfe-rho.vercel.app',
+        title: 'Github Link : ',
+        desc: 'https://github.com/AAmitha/GO_Fish_Card_Game',
       },
     ],
   },
@@ -314,63 +281,109 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: '3D Models',
+    title: 'Real Time Face Mask Detection',
     details: [
       {
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'AI',
       },
      
       {
         title: 'Language : ',
-        desc: 'ThreeJs',
+        desc: 'Python',
       },
-      {
-        title: 'Preview : ',
-        desc: 'https://3-d-geometry.vercel.app/',
-      },
+     
     ],
   },
 
   {
     id: 6,
     img: Work6,
-    title: 'Car Price Prediction',
+    title: 'Railway Reservation System',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Machine Learning Model',
+        desc: 'Python Project',
       },
     
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Python(Linear Regression)',
+        desc: 'Python',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://github.com/AkashReddy2003/CAR-PRICE-PREDICTION',
+        title: 'Github Link : ',
+        desc: 'https://github.com/AAmitha/Railway_Reservation_System',
       },
     ],
   },
   {
     id: 7,
     img: Work7,
-    title: 'Quick Chat',
+    title: 'Traffic Sign Classification',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Android App',
+        desc: 'ML Model',
       },
     
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React Native',
+        desc: 'Python',
       },
+      {
+        icon: <FiExternalLink />,
+        title: 'Github Link : ',
+        desc: 'https://github.com/AAmitha/Traffic_Sign_Classification',
+      },
+      
+    ],
+  },
+  {
+    id: 7,
+    img: Work8,
+    title: 'Expense 8 puzzle',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Python Project',
+      },
+    
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Python',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Github Link : ',
+        desc: 'https://github.com/AAmitha/AI_Expense_8_Puzzle',
+      },
+      
+    ],
+  },
+  {
+    id: 7,
+    img: Work9,
+    title: 'Performance comparison of ML algorithms for load forecasting in Smart Grid',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'ML Model comparision',
+      },
+    
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Python',
+      },
+     
       
     ],
   },
