@@ -44,26 +44,24 @@ const Contact=()=>{
 
                     </div>
                     <div className="contact__socials">
-                        <a href="" className="contact__social-link">
+                        <a href="https://github.com/AAmitha" className="contact__social-link">
                             <FaGithub/>
                         </a>
-                        <a href="" className="contact__social-link">
-                            <FaFacebookF/>
-                        </a>
-                        <a href="" className="contact__social-link">
+                        
+                        <a href="https://www.linkedin.com/in/akepati-amitha-45a415181/" className="contact__social-link">
                             <FaLinkedin/>
                         </a>
-                        <a href="" className="contact__social-link">
-                            <FaInstagram/>
-                        </a>
+                        
 
                     </div>
 
                 </div>
+                <form action="mailto:akepati.amitha@gmail.com" method="post" enctype="text/plain">
                 <div className="contact__form">
                     <div className="form__input-group">
                         <div className="form__input-div">
                             <input
+                            name="name"
                             type="text"
                             placeholder="Your Name"
                             className="form__control"
@@ -72,6 +70,7 @@ const Contact=()=>{
                         </div>
                         <div className="form__input-div">
                             <input
+                            name="email"
                             type="text"
                             placeholder="Email"
                             className="form__control"
@@ -80,6 +79,7 @@ const Contact=()=>{
                         </div>
                         <div className="form__input-div">
                             <input
+                            name="About"
                             type="text"
                             placeholder="Your Subject"
                             className="form__control"
@@ -89,18 +89,20 @@ const Contact=()=>{
 
                     </div>
                     <div className="form__input-div">
-                        <textarea placeholder="Your Message" className="form__control textarea"></textarea>
+                        <textarea name="message" placeholder="Your Message" className="form__control textarea"></textarea>
                     </div>
                     <button className="button">
                         Send Message
                         <span className="button__icon contact__button-icon">
-                            <FiSend/>
+                            <button type="submit"><FiSend/></button>
                         </span>
                     </button>
 
                 </div>
+                </form>
 
             </div>
+            
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./home.css";
-import prof from "../assets/home.webp";
+import prof from "../assets/home.jpg";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 

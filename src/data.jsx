@@ -91,17 +91,7 @@ export const personalInfo = [
     description: 'Akepati',
   },
 
-  {
-    id: 3,
-    title: 'Age : ',
-    description: '22 Years',
-  },
-
-  {
-    id: 4,
-    title: 'Nationality : ',
-    description: 'Indian',
-  },
+ 
 
   
 
@@ -126,7 +116,7 @@ export const personalInfo = [
   {
     id: 8,
     title: 'Langages : ',
-    description: 'Telugu, Hindi, English',
+    description: 'Telugu, English',
   },
 ];
 
