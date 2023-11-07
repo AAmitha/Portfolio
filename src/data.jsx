@@ -123,10 +123,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: 'June 2021-Aug 2022',
     title: 'Software Engineer <span> DXC Technology </span>',
-    desc: "o	Built a Python-based scalable file transfer system capable of handling large volumes of data securely between B2B data exchange.
-o	 Employed cutting-edge protocols like SFTP, and FTPS to safeguard data during transfers and reduced average file transfer time by 35% with this transfer protocols and authenticate connections using SSH keys. 
-o	Automated data processing and established network resilience with Python Script [failover mechanisms]. Integrated analytics for insights and managed anomalous activities. 
-o	Mentored 2 junior engineers in Python best practices for security, stability, and extensibility of the service and effectively managed anomalous activities, demonstrating leadership and teamwork skills.",
+    desc: "Built a Python-based scalable file transfer system capable of handling large volumes of data securely between B2B data exchange.Employed cutting-edge protocols like SFTP, and FTPS to safeguard data during transfers and reduced average file transfer time by 35% with this transfer protocols and authenticate connections using SSH keys. Automated data processing and established network resilience with Python Script [failover mechanisms]. Integrated analytics for insights and managed anomalous activities.Mentored 2 junior engineers in Python best practices for security, stability, and extensibility of the service and effectively managed anomalous activities, demonstrating leadership and teamwork skills." ,
   },
 
   {
