@@ -110,7 +110,7 @@ export const personalInfo = [
   {
     id: 7,
     title: 'Email : ',
-    description: 'akepati.amitha@gmail.com',
+    description: 'amithaakepati03@gmail.com',
   },
 
 ];
