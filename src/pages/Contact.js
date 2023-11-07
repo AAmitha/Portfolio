@@ -29,7 +29,7 @@ const Contact=()=>{
                             <FaEnvelopeOpen className="info__icon"/>
                             <div>
                                 <span className="info__title">Mail Me</span>
-                                <h4 className="info__desc">Akepati.amitha@gmail.com</h4>
+                                <h4 className="info__desc">amithaakepati03@gmail.com</h4>
                             </div>
 
                         </div>
@@ -56,7 +56,7 @@ const Contact=()=>{
                     </div>
 
                 </div>
-                <form action="mailto:akepati.amitha@gmail.com" method="post" enctype="text/plain">
+                <form action="mailto:amithaakepati03@gmail.com" method="post" enctype="text/plain">
                 <div className="contact__form">
                     <div className="form__input-group">
                         <div className="form__input-div">
