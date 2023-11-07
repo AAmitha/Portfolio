@@ -144,7 +144,7 @@ export const resume = [
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2018-2020',
+    year: '2017-2021',
     title: 'Bachelors <span> Annamacharya Institute of Technology and Sciences, Rajampet, Andhra Pradesh, India </span>',
     desc: 'Computer Science and Engineering',
   },
