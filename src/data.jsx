@@ -113,11 +113,6 @@ export const personalInfo = [
     description: 'akepati.amitha@gmail.com',
   },
 
-  {
-    id: 8,
-    title: 'Langages : ',
-    description: 'Telugu, English',
-  },
 ];
 
 
