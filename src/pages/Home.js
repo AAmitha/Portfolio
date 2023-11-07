@@ -81,7 +81,7 @@ const Home=()=>{
                     </h1>
                     <p className="home__description">
                     
-                    I hold a Bachelor's in Computer Science Engineering and I'm currently pursuing a Master's in Data Science at the University of Texas at Arlington. My professional background at DXC Technology focused on middleware technology, particularly HPSB, where I managed complex data transfers and resolved client challenges. I hold certifications in Microsoft Azure Fundamentals and Alteryx Designer Core. I have hands-on experience in Python, MySQL, HTML, CSS, GO Lang, and tools like Alteryx, Visual Studio, GitHub, and PowerBI. I'm a collaborative team member with a strong work ethic, quick learning ability, and a results-driven mindset, eager to contribute my expertise as a Software Developer.
+                    "Data Science graduate from the University of Texas at Arlington, with a prominent passion for trending technologies such as Python, web development, Machine Learning, and Artificial Intelligence. Technology has never failed to intrigue me, and it is this passion for finding tech solutions to everyday problems that drove me to pursue a career in the field. With strong programming skills in Python and HTML/CSS, as well as experience in team collaboration and project management methodologies like Agile Scrum and Waterfall, I eagerly anticipate the opportunity to work in a challenging environment. I aim to apply my experience and make significant contributions to the company, ultimately helping both of us achieve great success."
 
 
 
